@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    background: #f5f7fa;
+    color: #202124;
+}
+
+.header {
+    background: #4fa3e0;
+    padding: 16px 24px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.header-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 48px 16px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.error {
+    color: #d93025;
+}
+
+.google-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    background: #fff;
+    color: #3c4043;
+    font: 500 14px Roboto, Arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.google-button:hover {
+    background: #f8faff;
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+}
+
+.google-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #4fa3e0;
+    color: #fff;
+    font: 500 14px Roboto, Arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.button:hover {
+    background: #3b8fcc;
+}
+
+.link {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 16px;
+    border: 4px solid #e3eef8;
+    border-top-color: #4fa3e0;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.primary-action {
+    display: flex;
+    justify-content: center;
+    margin: 28px 0;
+}
+
+.button-large {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 200px;
+    padding: 14px 32px;
+    font-size: 17px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(79, 163, 224, 0.4);
+}
+
+.button-icon {
+    width: 22px;
+    height: 22px;
+}

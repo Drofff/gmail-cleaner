@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gmail-cleaner
+
+server:
+  port: 80
+
+gmail-cleaner:
+  google:
+    client-secrets: classpath:client_secret.json
